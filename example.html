@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Example uF Page</title>
+		<style>
+			div {
+				display:block;
+				clear:both;
+				float:left;
+				}
+		</style>
+		<script src="./uFparser.js"></script>
+	</head>
+	<body>
+		<div id="contact" data-uf="vCard">
+			<div>
+				Name: <span data-uf=":name:first">Robert</span> <span data-uf=":name:last">Clarke</span>
+			</div>
+			<div>
+				Email: <a href="mailto:raidiun@rocketsevern.com" data-uf=":email">raidiun@rocketsevern.com</a>
+			</div>
+			<div>
+				Org: <span data-uf=":org">Rocket Severn</span>
+			</div>
+		</div>
+	</body>
+</html>
